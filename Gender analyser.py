@@ -37,5 +37,5 @@ fbStatus="I have %s friends\n%s are male and %s are female"%(count,maleCount,fem
       "\nMale percentage:%.1f\nFemale percentage:%.1f"%(malePercentage,femalePercentage)
 
 #Posts to facebook
-#graph.post('me/feed',message=fbStatus)
+graph.post('me/feed',message=fbStatus)
 
