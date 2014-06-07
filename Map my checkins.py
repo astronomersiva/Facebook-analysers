@@ -4,7 +4,7 @@ import urllib2
 
 # Initialize the Graph API with a valid access token  
 #Generate access token here: https://developers.facebook.com/tools/explorer/
-oauth_access_token = 'CAACEdEose0cBAMapOeoibIOL53zv5wfK6juT4amcPFPv5OkKHr6AwlV9qfSYIkH1c3aTnz23lJ71VAVNhbqfH09ZCOpOV8ODbkTmWTiKKx3z6x12N4t1K86XLtiMPWTbWkxHFkd1DEep1HU3mGW6DbdSv47gqkFX94vHebsvISoCdfC58iC5v0YPphZCJb0BSiN2rZBAgZDZD'  
+oauth_access_token = 'Enter access token here'  
 graph = GraphAPI(oauth_access_token)
 
 #Initialise the output map
